@@ -1,0 +1,101 @@
+  /* Reset */ 
+  body, html{ background-image: url(Sfondo_collage.png);
+    font-family: 'Intro', Arial, Helvetica, sans-serif; line-height: 1; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{padding-left: 20px;line-height: 1.5;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
+
+
+
+
+
+.header{
+background-color: rgba(255,255,255,0.53);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+border: 3px inset pink;
+border-radius: 10px 10px 10px 10px;
+padding: 10px; 
+margin: 20px;
+font-family: "Bungee Inline", serif; 
+}
+
+.logo{
+
+
+width: 10%;
+
+}
+
+#auguri{
+
+font-size: 45px;
+color: black;
+
+}
+
+#auguri:hover, .button:hover{
+
+    color: pink;
+}
+
+.button{
+
+   
+    padding: 10px;
+    font-size: 20px;
+    
+
+
+}
+
+.container_video{
+   
+    display: flex; width: 100%; height: 100%; align-items: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 1px 59px 5px rgba(0,0,0,0.75);
+}
+
+.video{
+margin: 10px ;
+width: 50%;
+height: 50%;
+
+}
+
+#buonavisione{
+    font-family: "Bowlby One SC", serif;
+    text-shadow: 1px 0px 29px rgba(0,0,0,1);
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+  
+.header{
+    display: flex;
+    flex-direction: column;
+}
+#auguri{
+    font-size: 25px;
+}
+#buonavisione{
+    font-size: 25px;
+}
+
+.video{
+    margin: 0px ;
+    width: 80%;
+    height: 80%;
+    }
+.container_video{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20% ;
+}
+
+}

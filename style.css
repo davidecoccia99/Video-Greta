@@ -73,7 +73,9 @@ height: 50%;
 }
 
 @media (max-width: 768px) {
-  
+   .logo {
+        width: 30%; /* Aumenta la dimensione del logo su mobile */
+    }
 .header{
     display: flex;
     flex-direction: column;
